@@ -1,16 +1,14 @@
-# ii's Stupid Template
-ii's Stupid Template is a mod menu template for Gorilla Tag with custom categories and the maximum amount of customization possible. This template is meant for more advanced users, so if you're a new menu creator, this could be difficult for you.
+# OpiumWare  
+OpiumWare is a mod menu for Gorilla Tag, built by me, **kenn**. Whether you're looking to experiment, explore, or just mess around, this menu has you covered. Designed to be **as useful as possible**, it includes a variety of features and options that let you customize your modding experience to your heart’s content.  
 
-## Do I need permission to use this?
-No, this template is free and public for anyone to use. You are welcome to utilize it for your projects, modify it to suit your needs, and share it with others. We believe in a collaborative and open community where resources are accessible to all. Just don't skid, cause skidding is bad.
+Let's bring back the **collaborative spirit** of modding. Just **a fun menu** with **action-packed mods**.  
 
----
+Need help or want to collaborate? Join the [Discord server](https://discord.gg/SnrbWDZkYC). 
 
 # Installation
+**Download** the latest release [here](https://github.com/kvzvxs/OpiumWare/releases/latest)  
+**Drag & Drop** `OpiumWare.dll` into your **plugins** folder  
+**Launch** Gorilla Tag and enjoy!
+Done. That’s it. Go have fun. 🎮🔥
 
-- Download the source code from [here](https://github.com/iiDk-the-actual/iis.Stupid.Template/releases/latest)
-- Change your `<GamePath>` (Gorilla Tag directory) in `Directory.Build.props` if required
-- Change the menu name in `PluginInfo.cs`
-- Edit the menu visuals in `Menu/Settings.cs`
-- Add buttons in `Menu/Buttons.cs`
-- Build with `Ctrl` + `Shift` + `B`, it will get put in your plugins folder automatically
+> This product is not affiliated with Gorilla Tag or Another Axiom LLC and is not endorsed or otherwise sponsored by Another Axiom LLC. Portions of the materials contained herein are property of Another Axiom LLC. © 2025 Another Axiom LLC.
