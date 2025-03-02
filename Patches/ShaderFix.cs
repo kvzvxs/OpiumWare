@@ -2,7 +2,7 @@
 using HarmonyLib;
 using UnityEngine;
 
-namespace kennMenu.Patches
+namespace OpiumWare.Patches
 {
     [HarmonyPatch(typeof(GameObject))]
     [HarmonyPatch("CreatePrimitive", 0)]

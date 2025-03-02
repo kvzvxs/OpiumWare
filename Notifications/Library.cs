@@ -3,9 +3,9 @@ using System.Linq;
 using BepInEx;
 using UnityEngine;
 using UnityEngine.UI;
-using static kennMenu.Settings;
+using static OpiumWare.Settings;
 
-namespace kennMenu.Notifications
+namespace OpiumWare.Notifications
 {
     [BepInPlugin("org.gorillatag.lars.notifications2", "NotificationLibrary", "1.0.5")]
     public class NotifiLib : BaseUnityPlugin

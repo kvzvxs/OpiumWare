@@ -1,12 +1,12 @@
 ﻿using HarmonyLib;
-using kennMenu.Notifications;
+using OpiumWare.Notifications;
 using Photon.Pun;
 using Photon.Realtime;
 using System.IO;
 using UnityEngine;
-using static kennMenu.Menu.Main;
+using static OpiumWare.Menu.Main;
 
-namespace kennMenu.Patches
+namespace OpiumWare.Patches
 {
     [HarmonyPatch(typeof(MonoBehaviourPunCallbacks), "OnPlayerLeftRoom")]
     internal class LeavePatch : MonoBehaviour

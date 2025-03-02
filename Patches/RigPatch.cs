@@ -1,7 +1,7 @@
 ﻿using HarmonyLib;
 using UnityEngine;
 
-namespace kennMenu.Patches
+namespace OpiumWare.Patches
 {
     [HarmonyPatch(typeof(VRRig), "OnDisable")]
     internal class GhostPatch : MonoBehaviour

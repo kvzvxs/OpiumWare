@@ -1,18 +1,16 @@
-# OpiumWare
-OpiumWare is a mod menu for Gorilla Tag, created by me, kenn. This menu is designed to be as useful as possible by providing any variety of features and options you would ever need. With ii's Stupid Menu, you can explore new functionalities, experiment with different settings, and enjoy a more personalized modding experience.
+# ii's Stupid Template
+ii's Stupid Template is a mod menu template for Gorilla Tag with custom categories and the maximum amount of customization possible. This template is meant for more advanced users, so if you're a new menu creator, this could be difficult for you.
 
-## Why make your menu open-sourced?
-I made my menu open-sourced as a resource for anyone interested in learning how to create their own mods for this game. By sharing my work, I want to provide a valuable educational tool for the community, enabling developers of all skill levels to explore, understand, and contribute to the game's modding community. I want modding to go back to how it used to be, with everything free and open-sourced, unlike today, where everything is obfuscated and locked behind paywalls. By making my menu open-sourced, I hope to inspire a return to a more collaborative and accessible modding culture.
-
-## Can I take code from this?
-Yes, if you're following the GPL-3.0 license guidelines. If you're interested in using any part of my code, it must be open sourced. You can find my contact information on my [linktree](https://linktr.ee/2kkenn) or in the [Discord server](https://discord.gg/SnrbWDZkYC). This helps me and you keep the project alive. I'm happy to discuss any potential collaborations, so don't hesitate to get in touch if you have any questions or ideas regarding the code. Come on.
+## Do I need permission to use this?
+No, this template is free and public for anyone to use. You are welcome to utilize it for your projects, modify it to suit your needs, and share it with others. We believe in a collaborative and open community where resources are accessible to all. Just don't skid, cause skidding is bad.
 
 ---
 
 # Installation
 
-- Download the release from [here](https://github.com/kvzvxs/kenns.Opium.Menu/releases/latest)
-- Drag the file `OpiumWare.dll` to your plugins folder
-- Start Gorilla Tag if needed
-
-> This product is not affiliated with Gorilla Tag or Another Axiom LLC and is not endorsed or otherwise sponsored by Another Axiom LLC. Portions of the materials contained herein are property of Another Axiom LLC. © 2024 Another Axiom LLC.
+- Download the source code from [here](https://github.com/iiDk-the-actual/iis.Stupid.Template/releases/latest)
+- Change your `<GamePath>` (Gorilla Tag directory) in `Directory.Build.props` if required
+- Change the menu name in `PluginInfo.cs`
+- Edit the menu visuals in `Menu/Settings.cs`
+- Add buttons in `Menu/Buttons.cs`
+- Build with `Ctrl` + `Shift` + `B`, it will get put in your plugins folder automatically

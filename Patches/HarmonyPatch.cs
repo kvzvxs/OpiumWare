@@ -2,7 +2,7 @@
 using HarmonyLib;
 using UnityEngine;
 
-namespace kennMenu.Patches
+namespace OpiumWare.Patches
 {
     public class Menu : MonoBehaviour
     {
@@ -14,7 +14,7 @@ namespace kennMenu.Patches
             {
                 if (instance == null)
                 {
-                    instance = new Harmony(kennMenu.PluginInfo.GUID);
+                    instance = new Harmony(OpiumWare.PluginInfo.GUID);
                 }
                 instance.PatchAll(Assembly.GetExecutingAssembly());
                 IsPatched = true;

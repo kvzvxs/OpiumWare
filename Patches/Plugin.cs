@@ -1,10 +1,10 @@
 ﻿using BepInEx;
 using System.ComponentModel;
 
-namespace kennMenu.Patches
+namespace OpiumWare.Patches
 {
-    [Description(kennMenu.PluginInfo.Description)]
-    [BepInPlugin(kennMenu.PluginInfo.GUID, kennMenu.PluginInfo.Name, kennMenu.PluginInfo.Version)]
+    [Description(OpiumWare.PluginInfo.Description)]
+    [BepInPlugin(OpiumWare.PluginInfo.GUID, OpiumWare.PluginInfo.Name, OpiumWare.PluginInfo.Version)]
     public class HarmonyPatches : BaseUnityPlugin
     {
         private void OnEnable()

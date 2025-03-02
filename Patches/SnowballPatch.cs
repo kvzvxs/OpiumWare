@@ -1,10 +1,10 @@
 ﻿using HarmonyLib;
-using kennMenu.Mods;
+using OpiumWare.Mods;
 using System;
 using UnityEngine;
-using static kennMenu.Menu.Main;
+using static OpiumWare.Menu.Main;
 
-namespace kennMenu.Patches
+namespace OpiumWare.Patches
 {
     [HarmonyPatch(typeof(SnowballThrowable), "GetRandomModelIndex")]
     public class SnowballPatch

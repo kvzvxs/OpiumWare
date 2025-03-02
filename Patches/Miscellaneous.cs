@@ -3,7 +3,7 @@ using Photon.Pun;
 using System;
 using UnityEngine;
 
-namespace kennMenu.Patches
+namespace OpiumWare.Patches
 {
     [HarmonyPatch(typeof(GorillaNot), "SendReport")]
     internal class AntiCheat : MonoBehaviour

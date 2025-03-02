@@ -1,10 +1,10 @@
 ﻿using HarmonyLib;
-using kennMenu.Menu;
+using OpiumWare.Menu;
 using Photon.Pun;
 using System.Reflection;
 using UnityEngine;
 
-namespace kennMenu.Patches
+namespace OpiumWare.Patches
 {
     [HarmonyPatch(typeof(VRRig), "OnHandTap")]
     public class HandTapPatch

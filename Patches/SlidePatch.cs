@@ -1,8 +1,8 @@
 ﻿using HarmonyLib;
 using GorillaLocomotion;
-using static kennMenu.Menu.Main;
+using static OpiumWare.Menu.Main;
 
-namespace kennMenu.Patches
+namespace OpiumWare.Patches
 {
     [HarmonyPatch(typeof(Player), "GetSlidePercentage")]
     public class SlidePatch
